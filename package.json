@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@iconify/vue": "^3.0.0",
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "katex": "^0.13.18",
+    "qrcode.vue": "^3.3.0",
+    "slidev-theme-flayyer": "^1.0.2"
+  },
+  "name": "slidev"
+}
