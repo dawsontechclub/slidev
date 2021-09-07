@@ -22,6 +22,11 @@ compile () {
     echo "👍 built $(cyan $SRC) -> $(yellow $DST)"
 }
 
+cname() {
+    echo "slidev.dawsontech.club" > docs/CNAME
+}
+
 package hi2lo
 compile intro
 compile bits
+cname
