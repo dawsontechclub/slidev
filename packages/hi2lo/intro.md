@@ -356,26 +356,26 @@ preload: false
 All available in many different flavours!
 
 <div class="flex flex-wrap" v-motion :initial="{ x: -100 }" :enter="{ x: 0 }">
-<IconText class="m-6" icon="logos:python" text="Python"/>
-<IconText class="m-6" icon="logos:javascript" text="JavaScript"/>
-<IconText class="m-6" icon="logos:typescript-icon" text="TypeScript"/>
-<IconText class="m-6" icon="logos:go" text="Go"/>
-<IconText class="m-6" icon="logos:c" text="C"/>
-<IconText class="m-6" icon="logos:c-plusplus" text="C++"/>
-<IconText class="m-6" icon="logos:rust" text="Rust"/>
-<IconText class="m-6" icon="logos:haskell-icon" text="Haskell"/>
-<IconText class="m-6" icon="logos:java" text="Java"/>
-<IconText class="m-6" icon="logos:kotlin" text="Kotlin"/>
-<IconText class="m-6" icon="vscode-icons:file-type-groovy2" text="Groovy"/>
-<IconText class="m-6" icon="logos-php" text="PHP"/>
-<IconText class="m-6" icon="logos:c-sharp" text="C#"/>
-<IconText class="m-6" icon="vscode-icons:file-type-fsharp" text="F#"/>
-<IconText class="m-6" icon="vscode-icons:file-type-vb" text="VB"/>
-<IconText class="m-6" icon="logos:swift" text="Swift"/>
-<IconText class="m-6" icon="logos:bash-icon" text="Bash"/>
-<IconText class="m-6" icon="vscode-icons:file-type-ocaml" text="OCaml"/>
-<IconText class="m-6" icon="simple-icons:fortran" text="Fortran"/>
-<IconText class="m-6" icon="logos:ruby" text="Ruby"/>
+<IconText class="m-3" icon="logos:python" text="Python"/>
+<IconText class="m-3" icon="logos:javascript" text="JavaScript"/>
+<IconText class="m-3" icon="logos:typescript-icon" text="TypeScript"/>
+<IconText class="m-3" icon="logos:go" text="Go"/>
+<IconText class="m-3" icon="logos:c" text="C"/>
+<IconText class="m-3" icon="logos:c-plusplus" text="C++"/>
+<IconText class="m-3" icon="logos:rust" text="Rust"/>
+<IconText class="m-3" icon="logos:haskell-icon" text="Haskell"/>
+<IconText class="m-3" icon="logos:java" text="Java"/>
+<IconText class="m-3" icon="logos:kotlin" text="Kotlin"/>
+<IconText class="m-3" icon="vscode-icons:file-type-groovy2" text="Groovy"/>
+<IconText class="m-3" icon="logos-php" text="PHP"/>
+<IconText class="m-3" icon="logos:c-sharp" text="C#"/>
+<IconText class="m-3" icon="vscode-icons:file-type-fsharp" text="F#"/>
+<IconText class="m-3" icon="vscode-icons:file-type-vb" text="VB"/>
+<IconText class="m-3" icon="logos:swift" text="Swift"/>
+<IconText class="m-3" icon="logos:bash-icon" text="Bash"/>
+<IconText class="m-3" icon="vscode-icons:file-type-ocaml" text="OCaml"/>
+<IconText class="m-3" icon="simple-icons:fortran" text="Fortran"/>
+<IconText class="m-3" icon="logos:ruby" text="Ruby"/>
 </div>
 
 <ChatBubble v-click>But wait, there's more!</ChatBubble>
