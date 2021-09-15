@@ -14,7 +14,7 @@ package () {
 
 compile () {
     local NAME=$1
-    local BASE=$PACKAGE-$NAME
+    local BASE=$PACKAGE/$NAME
     local SRC=packages/$PACKAGE/$1.md
     local DST=docs/$BASE
     echo "🔨 building $(cyan $SRC) -> $(yellow $DST)"
@@ -26,6 +26,12 @@ cname() {
     echo "slidev.dawsontech.club" > docs/CNAME
 }
 
+clean() {
+    echo "🧹 removing old build"
+    rm docs/* -rf
+}
+
+clean
 package hi2lo
 compile intro
 compile bits
