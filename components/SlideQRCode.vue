@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-    <div class="fixed top-5 right-5">
-        <ShowQRCode :text="text" :icon="icon" :size="size" :value="value"/>
-    </div>
+  <div class="fixed top-5 right-5">
+    <ShowQRCode :text="text" :icon="icon" :size="size" :value="value" />
+  </div>
 </template>

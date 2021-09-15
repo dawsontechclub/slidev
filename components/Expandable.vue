@@ -10,16 +10,11 @@ export default {
     show: {
       default: false,
     },
-    slidev: { default: null },
   },
 };
 </script>
 
 <template>
-  <div class="hidden">
-    {{ (slidev = $slidev) }}
-  </div>
-
   <IconText  @click="show = !show" :icon="icon" :text="text" class="cursor-pointer"/>
 
   <div

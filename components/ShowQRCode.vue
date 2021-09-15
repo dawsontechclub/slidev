@@ -17,10 +17,12 @@ export default {
       default: 300,
     },
     text: {
-      default: "",
+      type: String,
+      default: () => "",
     },
     icon: {
-      default: "bx:bx-qr-scan",
+      type: String,
+      default: () => "bx:bx-qr-scan",
     },
   },
 };
